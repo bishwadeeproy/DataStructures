@@ -1,0 +1,6 @@
+underlying data structure | space | add edge v-w | check whether w is adjacent to v | iterate through vertices adjacent to v
+list of edges             | E     |     1        |              E                   |             E
+adjacency matrix          | V^2   |     1        |              1                   |             V
+adjacency lists           | E+V   |     1        |              degree(v)           |             degree(v)
+adjacency sets            | E+V   |     log V    |              log V               |             degree(v)
+Order-of-growth performance for typical Graph implementations
